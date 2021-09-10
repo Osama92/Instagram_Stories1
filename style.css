@@ -5,6 +5,7 @@
 
 h1 {
   font-family: "Noto Sans TC", sans-serif;
+  font-size: 6em;
 }
 
 p {
@@ -101,7 +102,19 @@ p {
 .hero_text_column {
   width: 60%;
   height: inherit;
-  background: grey;
+  display: flex;
+  flex-direction: column;
+}
+.hero_text_column h1 {
+  width: 60%;
+}
+span {
+  text-decoration: underline;
+}
+.hero_text_column p {
+  font-size: 25px;
+  margin-top: 30px;
+  width: 40%;
 }
 .hero_text_row {
   width: 30%;
