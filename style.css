@@ -17,7 +17,8 @@ p {
   min-height: 300vh;
   background: #fff;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .dog_holder {
   width: 25%;
@@ -43,6 +44,38 @@ p {
 }
 .header_section {
   width: 100%;
+  position: absolute;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.ss {
+  width: 5%;
+  height: 5vh;
+  background: pink;
+  display: flex;
+  align-items: center;
+}
+.ms {
+  width: 8%;
+  height: 5vh;
+  background: grey;
+  display: flex;
+  align-items: center;
+}
+.ls {
+  width: 30%;
+  height: 5vh;
+  background: orange;
+}
+.xs {
+  width: 3%;
+  height: 5vh;
+  background: black;
+  display: flex;
+  align-items: center;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
