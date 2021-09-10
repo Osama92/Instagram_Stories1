@@ -116,6 +116,26 @@ span {
   margin-top: 30px;
   width: 40%;
 }
+.explore_btn {
+  width: 40%;
+  height: 6vh;
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+}
+.arrow_btn {
+  width: 20%;
+  height: 6vh;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.explore_btn p {
+  margin-top: 14px;
+  margin-left: 20px;
+  font-size: 18px;
+}
 .hero_text_row {
   width: 30%;
   height: inherit;
