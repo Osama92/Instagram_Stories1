@@ -180,6 +180,47 @@ span {
   margin-top: 20px;
 }
 
+.gallery_section {
+  width: 100%;
+  position: absolute;
+  top: 130vh;
+  height: 70vh;
+  /* background: #f4f9f9; */
+  background: yellow;
+  display: grid;
+  align-content: center;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(6, 0.5fr);
+  grid-gap: 1em;
+  grid-template-areas:
+    "image1 image1 image3 image3 image6 image6"
+    "image1 image1 image3 image3 image6 image6"
+    "image1 image1 image4 image5 image6 image6"
+    "image1 image1 image4 image5 image6 image6"
+    "image1 image1 image4 image5 image6 image6";
+}
+.gr {
+  background: green;
+}
+.image1 {
+  grid-area: image1;
+}
+.image2 {
+  grid-area: image2;
+}
+.image3 {
+  grid-area: image3;
+}
+.image4 {
+  grid-area: image4;
+}
+.image5 {
+  grid-area: image5;
+}
+.image6 {
+  grid-area: image6;
+}
+
 @media all and (min-width: 320px) and (max-width: 768px) {
   .dog_holder {
     width: 100%;
