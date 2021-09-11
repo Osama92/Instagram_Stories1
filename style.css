@@ -197,6 +197,7 @@ span {
   margin-top: 80px;
   background: #f4f9f9;
 }
+
 .gallery_text {
   width: 45%;
   height: inherit;
@@ -253,36 +254,51 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog1.jpg');
+  background-position: center;
 }
 .image2 {
   grid-area: image2;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog2.webp');
 }
 .image3 {
   grid-area: image3;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog2.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .image4 {
   grid-area: image4;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog3.jpg');
+  background-position: center;
+  background-size: contain;
 }
 .image5 {
   grid-area: image5;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog4.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
+
 }
 .image6 {
   grid-area: image6;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url('images/dog5.webp');
+  background-position: center;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
