@@ -448,6 +448,9 @@ span {
   align-items: center;
   flex-direction: column;
 }
+.testimonial_section .gallery_btn {
+  justify-content: center;
+}
 .testimonial_section p {
   width: 50%;
   text-align: center;
