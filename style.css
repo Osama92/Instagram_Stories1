@@ -393,41 +393,50 @@ span {
   background: url('images/client1.png') no-repeat;
   background-size: contain;
   background-position: center;
+
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .two {
   background: url('images/client2.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .three {
   background: url('images/client3.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .four {
   background: url('images/client4.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .five {
   background: url('images/client5.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .six {
   background: url('images/client3.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .seven {
   background: url('images/client1.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 .eight {
   background: url('images/client5.png') no-repeat;
   background-size: contain;
   background-position: center;
+  box-shadow: 0 3px 10px #f4f9f9;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
