@@ -447,6 +447,7 @@ span {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 40px;
 }
 .testimonial_section .gallery_btn {
   justify-content: center;
