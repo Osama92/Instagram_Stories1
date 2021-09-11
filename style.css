@@ -389,6 +389,46 @@ span {
   height: 20vh;
   background: orange;
 }
+.one {
+  background: url('images/client1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.two {
+  background: url('images/client2.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.three {
+  background: url('images/client3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.four {
+  background: url('images/client4.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.five {
+  background: url('images/client5.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.six {
+  background: url('images/client3.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.seven {
+  background: url('images/client1.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.eight {
+  background: url('images/client5.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+}
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   .dog_holder {
