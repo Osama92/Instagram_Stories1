@@ -195,6 +195,7 @@ span {
   justify-content: center;
   align-items: center;
   margin-top: 80px;
+  background: #f4f9f9;
 }
 .gallery_text {
   width: 45%;
