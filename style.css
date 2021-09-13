@@ -254,7 +254,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("images/dog1.jpg");
+  background: url("images/dog1.jpg") no-repeat;
   background-position: center;
 }
 .image2 {
@@ -262,7 +262,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("images/dog2.webp");
+  background: url("images/dog2.webp") no-repeat;
 }
 .image3 {
   grid-area: image3;
@@ -278,7 +278,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("images/dog3.jpg");
+  background: url("images/dog3.jpg") no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -296,7 +296,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url("images/dog5.webp");
+  background: url("images/dog5.webp") no-repeat;
   background-position: center;
 }
 
@@ -326,32 +326,32 @@ span {
   align-items: center;
 }
 .dw1 {
-  background: url("images/DW1.jpg");
+  background: url("images/Dw1.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 .dw2 {
-  background: url("images/DW2.jpg");
+  background: url("images/DW2.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 .dw3 {
-  background: url("images/DW3.jpg");
+  background: url("images/DW3.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 .dw4 {
-  background: url("images/DW4.jpg");
+  background: url("images/DW4.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 .dw5 {
-  background: url("images/DW5.jpg");
+  background: url("images/DW5.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
 .dw6 {
-  background: url("images/DW6.jpg");
+  background: url("images/DW6.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
