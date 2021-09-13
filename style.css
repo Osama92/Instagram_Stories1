@@ -521,7 +521,54 @@ span {
   width: 100%;
   top: 460vh;
   height: 60vh;
-  background: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mld_holder {
+  width: 90%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.mld_img {
+  width: 30%;
+  height: 50vh;
+  background: url("images/DW7.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.mld_entry {
+  width: 70%;
+  height: 50vh;
+  background: #222831;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.mld_entry p {
+  color: white;
+}
+.mld_entry h2 {
+  color: white;
+}
+.input_area {
+  width: 80%;
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+input {
+  width: 70%;
+  height: 7vh;
+  border-color: none;
+  font-size: 20px;
+  padding-left: 20px;
 }
 
 @media all and (min-width: 320px) and (max-width: 768px) {
