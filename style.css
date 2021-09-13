@@ -516,6 +516,13 @@ span {
   font-size: 13px;
   padding-left: 30px;
 }
+.mail_letter_section {
+  position: absolute;
+  width: 100%;
+  top: 460vh;
+  height: 60vh;
+  background: orange;
+}
 
 @media all and (min-width: 320px) and (max-width: 768px) {
   .dog_holder {
