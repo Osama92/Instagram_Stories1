@@ -254,7 +254,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog1.jpg');
+  background: url("images/dog1.jpg");
   background-position: center;
 }
 .image2 {
@@ -262,14 +262,14 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog2.webp');
+  background: url("images/dog2.webp");
 }
 .image3 {
   grid-area: image3;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog2.jpg') no-repeat;
+  background: url("images/dog2.jpg") no-repeat;
   background-position: center;
   background-size: cover;
 }
@@ -278,7 +278,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog3.jpg');
+  background: url("images/dog3.jpg");
   background-position: center;
   background-size: contain;
 }
@@ -287,17 +287,16 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog4.webp') no-repeat;
+  background: url("images/dog4.webp") no-repeat;
   background-size: cover;
   background-position: center;
-
 }
 .image6 {
   grid-area: image6;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('images/dog5.webp');
+  background: url("images/dog5.webp");
   background-position: center;
 }
 
@@ -326,6 +325,36 @@ span {
   justify-content: center;
   align-items: center;
 }
+.dw1 {
+  background: url("images/DW1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dw2 {
+  background: url("images/DW2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dw3 {
+  background: url("images/DW3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dw4 {
+  background: url("images/DW4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dw5 {
+  background: url("images/DW5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.dw6 {
+  background: url("images/DW6.jpg");
+  background-position: center;
+  background-size: cover;
+}
 .ptw_sections p {
   margin-left: 40px;
   margin-right: 40px;
@@ -341,7 +370,6 @@ span {
 .ptwg {
   width: 20%;
   height: 40vh;
-  background: orange;
   margin-left: 10px;
 }
 .ptw_btn {
@@ -376,7 +404,7 @@ span {
   align-items: center;
   justify-content: space-between;
 }
-.client2  {
+.client2 {
   width: 90%;
   height: 30vh;
   display: flex;
@@ -390,50 +418,50 @@ span {
   background: orange;
 }
 .one {
-  background: url('images/client1.png') no-repeat;
+  background: url("images/client1.png") no-repeat;
   background-size: contain;
   background-position: center;
 
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .two {
-  background: url('images/client2.png') no-repeat;
+  background: url("images/client2.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .three {
-  background: url('images/client3.png') no-repeat;
+  background: url("images/client3.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .four {
-  background: url('images/client4.png') no-repeat;
+  background: url("images/client4.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .five {
-  background: url('images/client5.png') no-repeat;
+  background: url("images/client5.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .six {
-  background: url('images/client3.png') no-repeat;
+  background: url("images/client3.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .seven {
-  background: url('images/client1.png') no-repeat;
+  background: url("images/client1.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
 }
 .eight {
-  background: url('images/client5.png') no-repeat;
+  background: url("images/client5.png") no-repeat;
   background-size: contain;
   background-position: center;
   box-shadow: 0 3px 10px #f4f9f9;
@@ -476,7 +504,7 @@ span {
   background: #fff;
 }
 .rating_img {
-  background: url('images/ratings.png') no-repeat;
+  background: url("images/ratings.png") no-repeat;
   background-size: contain;
   width: 50%;
   height: 3vh;
