@@ -132,6 +132,9 @@ span {
   flex-direction: row;
   margin-top: 60px;
 }
+.explore_btn:hover {
+  cursor: pointer;
+}
 .arrow_btn {
   width: 20%;
   height: 6vh;
@@ -179,10 +182,17 @@ span {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
 }
 .sl p {
   font-weight: 600;
   margin-top: 20px;
+}
+.sl:hover {
+  background: #222831;
+  color: #fff;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .gallery_section {
