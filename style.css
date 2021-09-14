@@ -56,6 +56,10 @@ p {
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  z-index: 10;
+}
+.htc:hover {
+  cursor: pointer;
 }
 .ss {
   width: 5%;
@@ -65,6 +69,9 @@ p {
   font-size: 13px;
   font-weight: 600;
 }
+.ss:hover {
+  cursor: pointer;
+}
 .ms {
   width: 9%;
   height: 5vh;
@@ -73,6 +80,9 @@ p {
   font-size: 13px;
   font-weight: 600;
 }
+.ms:hover {
+  cursor: pointer;
+}
 .ls {
   width: 30%;
   height: 5vh;
@@ -80,6 +90,9 @@ p {
   flex-direction: column;
   align-items: center;
   padding-right: 80px;
+}
+.ls:hover {
+  cursor: pointer;
 }
 .logo {
   font-weight: 700;
@@ -142,6 +155,9 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.arrow_btn:hover {
+  cursor: pointer;
 }
 .explore_btn p {
   margin-top: 14px;
@@ -231,6 +247,9 @@ span {
 }
 .buttons i {
   font-size: 25px;
+}
+.buttons:hover {
+  cursor: pointer;
 }
 .grid_section {
   width: 90%;
