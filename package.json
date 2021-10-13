@@ -1,7 +1,7 @@
 {
-  "name": "bh4no",
+  "name": "html",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple HTML page",
   "keywords": [],
   "main": "index.html",
   "dependencies": {}
